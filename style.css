@@ -1,14 +1,6 @@
-.hover_effect {
-    height:25%;
-    width: auto; 
-  }
-   
-  .hover_effect:hover {
-    height: 100%;
-    width: auto;
-  }
   body{
     background-image: url(Források/bruce.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
   }
+  
