@@ -9,9 +9,14 @@
     width: auto;
   }
   body{
-    background-image: url(Források/bruce.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
+  }
+  .bruce{
+    background-image: url(Források/bruce.jpeg);
+    background-image: auto;
+    float: right;
+    width: 1250px;
   }
 
 
