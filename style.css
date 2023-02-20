@@ -13,6 +13,7 @@
   body{
     background-size: cover;
     background-repeat: no-repeat;
+    color: black;
   }
   .bruce{
     background-image: url(Források/bruce.jpeg);
@@ -20,7 +21,14 @@
     float: right;
     width: 1250px;
   }
-
+ .autokepjobb{
+    float: right;
+    width: 750px;
+    text-align: center;
+  }
+.autokepbal{
+float: left;
+}
 
 
 
