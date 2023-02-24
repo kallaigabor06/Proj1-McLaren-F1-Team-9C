@@ -29,6 +29,16 @@
 .autokepbal{
 float: left;
 }
-
-
-
+.brucekep{
+  float: right;
+  width: 47vw;
+  text-align: center;
+}
+.marlboro{
+  width: 500px;
+  float: left;
+  text-align: center;
+}
+.kettoezer{
+  text-align: left;
+}
