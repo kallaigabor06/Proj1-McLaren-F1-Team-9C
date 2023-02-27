@@ -1,44 +1,46 @@
 
 
-
 .hover_effect {
-    height:25%;
-    width: auto; 
-  }
-   
-  .hover_effect:hover {
-    height: 100%;
-    width: auto;
-  }
-  body{
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: black;
-  }
-  .bruce{
-    background-image: url(Források/bruce.jpeg);
-    background-image: auto;
-    float: right;
-    width: 1250px;
-  }
- .autokepjobb{
-    float: right;
-    width: 750px;
-    text-align: center;
-  }
-.autokepbal{
-float: left;
+  height: 25%;
+  width: auto;
 }
-.brucekep{
+
+.hover_effect:hover {
+  height: 100%;
+  width: auto;
+}
+body {
+  background-size: cover;
+  
+  font-size: 20px;
+  color: #333;
+  text-align: left;
+  background-color: #f8f6f0;
+}
+.bruce {
+  background-image: url(Források/bruce.jpeg);
+  background-image: auto;
+  float: right;
+  width: 1250px;
+}
+.autokepjobb {
+  float: right;
+  width: 750px;
+  text-align: center;
+}
+.autokepbal {
+  float: left;
+}
+.brucekep {
   float: right;
   width: 47vw;
   text-align: center;
 }
-.marlboro{
+.marlboro {
   width: 500px;
   float: left;
   text-align: center;
 }
-.kettoezer{
+.kettoezer {
   text-align: left;
 }
