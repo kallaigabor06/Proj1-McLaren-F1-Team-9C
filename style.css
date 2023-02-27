@@ -44,3 +44,7 @@ body {
 .kettoezer {
   text-align: left;
 }
+
+.container{
+  float: right;
+}
