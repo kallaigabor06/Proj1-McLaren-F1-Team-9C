@@ -11,71 +11,75 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-</head>
-<body> 
-    <nav class="navbar navbar-dark bg-dark top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html"><img src="Források/logo.png" alt="" width="200px"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">McLaren</h5>
-          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Főoldal</a>
+<link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/navbar-fixed/">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link href="navbar.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"><img src="Források/logo.png" alt="" width="200px"></a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <li class="nav-item">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Főoldal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Csapattörténet.html">Csapattörténet</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="2023.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             2023
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="MCL60.html">2023 MCL60</a></li>
+              <li><a class="dropdown-item" href="bahgp.html">Bahrain-i nagydíj</a> </li>
+              <li><a class="dropdown-item" href="saudigp.html">Szaud Arábia-i nagydíj</a></li>
+              <li><a class="dropdown-item" href="ausgp.html">Ausztrál nagydíj</a> </li>
+              <li><a class="dropdown-item" href="bakugp.html">Azeri nagydíj</a></li>
+              <li><a class="dropdown-item" href="miamigp.html">Miami-i nagydíj</a> </li>
+              <li><a class="dropdown-item" href="imolagp.html">Imola-i nagydíj</a></li>
+              <li><a class="dropdown-item" href="monacogp.html">Monaco-i nagydíj</a> </li>
+              <li><a class="dropdown-item" href="spaingp.html">Spanyol nagydíj</a></li>
+              <li><a class="dropdown-item" href="cangp.html">Canada-i nagydíj</a> </li>
+              <li><a class="dropdown-item" href="östgp.html">Osztrák nagydíj</a></li>
+              <li><a class="dropdown-item" href="Britgp.html">Brit nagydíj</a> </li>
+              <li><a class="dropdown-item" href="hungp.html">Magyar nagydíj</a></li>
+              <li><a class="dropdown-item active" href="belgagp.html">Belga nagydíj</a> </li>
+              <li><a class="dropdown-item" href="hollandgp.html">Holland nagydíj</a></li>
+              <li><a class="dropdown-item" href="monzagp.html">Olasz nagydíj</a> </li>
+              <li><a class="dropdown-item" href="singp.html">Szingapúr-i nagydíj</a></li>
+              <li><a class="dropdown-item" href="japangp.html">Japán nagydíj</a> </li>
+              <li><a class="dropdown-item" href="qatargp.html">Qatar-i nagydíj</a></li>
+              <li><a class="dropdown-item" href="usgp.html">Amerika-i nagydíj</a> </li>
+              <li><a class="dropdown-item" href="mexgp.html">Mexicó-i nagydíj</a></li>
+              <li><a class="dropdown-item" href="brazilgp.html">Brazil nagydíj</a> </li>
+              <li><a class="dropdown-item" href="vegasgp.html">Las Vegas-i nagydíj</a></li>
+              <li><a class="dropdown-item" href="abudhabigp.html">Abu Dhabi nagydíj</a> </li>
+            </ul>
             </li>
+           
             <li class="nav-item">
-              <a class="nav-link" href="Csapattörténet.html">Csapattörténet</a>
+              <a class="nav-link" aria-current="page" href="Legends.html">Legendák</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="2023.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-               2023
-              </a>
-              <ul class="dropdown-menu dropdown-menu-dark">
-                <li><a class="dropdown-item" href="MCL60.html">2023 MCL60</a></li>
-                <li><a class="dropdown-item" href="bahgp.html">Bahrain-i nagydíj</a> </li>
-                <li><a class="dropdown-item" href="saudigp.html">Szaud Arábia-i nagydíj</a></li>
-                <li><a class="dropdown-item" href="ausgp.html">Ausztrál nagydíj</a> </li>
-                <li><a class="dropdown-item" href="bakugp.html">Azeri nagydíj</a></li>
-                <li><a class="dropdown-item" href="miamigp.html">Miami-i nagydíj</a> </li>
-                <li><a class="dropdown-item" href="imolagp.html">Imola-i nagydíj</a></li>
-                <li><a class="dropdown-item" href="monacogp.html">Monaco-i nagydíj</a> </li>
-                <li><a class="dropdown-item" href="spaingp.html">Spanyol nagydíj</a></li>
-                <li><a class="dropdown-item" href="cangp.html">Canada-i nagydíj</a> </li>
-                <li><a class="dropdown-item" href="östgp.html">Osztrák nagydíj</a></li>
-                <li><a class="dropdown-item" href="Britgp.html">Brit nagydíj</a> </li>
-                <li><a class="dropdown-item" href="hungp.html">Magyar nagydíj</a></li>
-                <li><a class="dropdown-item active" href="belgagp.html">Belga nagydíj</a> </li>
-                <li><a class="dropdown-item" href="hollandgp.html">Holland nagydíj</a></li>
-                <li><a class="dropdown-item" href="monzagp.html">Olasz nagydíj</a> </li>
-                <li><a class="dropdown-item" href="singp.html">Szingapúr-i nagydíj</a></li>
-                <li><a class="dropdown-item" href="japangp.html">Japán nagydíj</a> </li>
-                <li><a class="dropdown-item" href="qatargp.html">Qatar-i nagydíj</a></li>
-                <li><a class="dropdown-item" href="usgp.html">Amerika-i nagydíj</a> </li>
-                <li><a class="dropdown-item" href="mexgp.html">Mexicó-i nagydíj</a></li>
-                <li><a class="dropdown-item" href="brazilgp.html">Brazil nagydíj</a> </li>
-                <li><a class="dropdown-item" href="vegasgp.html">Las Vegas-i nagydíj</a></li>
-                <li><a class="dropdown-item" href="abudhabigp.html">Abu Dhabi nagydíj</a> </li>
-              </ul>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="Legends.html">Legendák</a>
-              </li>
-            </li>
-         
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="quiz.html">Kvíz</a>
-            </li> 
-          </ul>
           
-        </div>
-      </div>
+          
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="quiz.html">Kvíz</a>
+          </li> 
+        </li>
+        </ul>
     </div>
-  </nav>  
+  </div>
+</nav>
   <h1>Belgium</h1>
   <img src="Források/pályák/belgium.png" alt="Belga pálya" title="Belga pálya" style="width: 53vw; margin-left: auto; margin-right: auto; display: block;"> 
   <div style="margin: 60px 500px 50px 500px; font-size: 25px; font-family: 'Roboto', sans-serif;">
