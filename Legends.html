@@ -1,81 +1,389 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>Legendák</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/navbar-fixed/">
-    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.3/examples/navbar-fixed/"
+    />
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-    
-    <link href="navbar.css" rel="stylesheet">
+    <link href="navbar.css" rel="stylesheet" />
   </head>
   <body>
-    
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html"><img src="Források/logo.png" alt="" width="200px"></a>
-    
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav me-auto mb-2 mb-md-0">
-        <li class="nav-item">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">Főoldal</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Csapattörténet.html">Csapattörténet</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="2023.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-             2023
-            </a>
-            <ul class="dropdown-menu dropdown-menu-dark">
-              <li><a class="dropdown-item" href="MCL60.html">2023 MCL60</a></li>
-              <li><a class="dropdown-item" href="bahgp.html">Bahrain-i nagydíj</a> </li>
-              <li><a class="dropdown-item" href="saudigp.html">Szaud Arábia-i nagydíj</a></li>
-              <li><a class="dropdown-item" href="ausgp.html">Ausztrál nagydíj</a> </li>
-              <li><a class="dropdown-item" href="bakugp.html">Azeri nagydíj</a></li>
-              <li><a class="dropdown-item" href="miamigp.html">Miami-i nagydíj</a> </li>
-              <li><a class="dropdown-item" href="imolagp.html">Imola-i nagydíj</a></li>
-              <li><a class="dropdown-item" href="monacogp.html">Monaco-i nagydíj</a> </li>
-              <li><a class="dropdown-item" href="spaingp.html">Spanyol nagydíj</a></li>
-              <li><a class="dropdown-item" href="cangp.html">Canada-i nagydíj</a> </li>
-              <li><a class="dropdown-item" href="östgp.html">Osztrák nagydíj</a></li>
-              <li><a class="dropdown-item" href="Britgp.html">Brit nagydíj</a> </li>
-              <li><a class="dropdown-item" href="hungp.html">Magyar nagydíj</a></li>
-              <li><a class="dropdown-item" href="belgagp.html">Belga nagydíj</a> </li>
-              <li><a class="dropdown-item" href="hollandgp.html">Holland nagydíj</a></li>
-              <li><a class="dropdown-item" href="monzagp.html">Olasz nagydíj</a> </li>
-              <li><a class="dropdown-item" href="singp.html">Szingapúr-i nagydíj</a></li>
-              <li><a class="dropdown-item" href="japangp.html">Japán nagydíj</a> </li>
-              <li><a class="dropdown-item" href="qatargp.html">Qatar-i nagydíj</a></li>
-              <li><a class="dropdown-item" href="usgp.html">Amerika-i nagydíj</a> </li>
-              <li><a class="dropdown-item" href="mexgp.html">Mexicó-i nagydíj</a></li>
-              <li><a class="dropdown-item" href="brazilgp.html">Brazil nagydíj</a> </li>
-              <li><a class="dropdown-item" href="vegasgp.html">Las Vegas-i nagydíj</a></li>
-              <li><a class="dropdown-item" href="abudhabigp.html">Abu Dhabi nagydíj</a> </li>
-            </ul>
-            </li>
-           
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><img src="Források/logo.png" alt="" width="200px"
+        /></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item"></li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="Legends.html">Legendák</a>
+              <a class="nav-link" aria-current="page" href="index.html"
+                >Főoldal</a
+              >
             </li>
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="quiz.html">Kvíz</a>
-          </li> 
-        </li>
-        </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="Csapattörténet.html">Csapattörténet</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="2023.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                2023
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li>
+                  <a class="dropdown-item" href="MCL60.html">2023 MCL60</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="bahgp.html"
+                    >Bahrain-i nagydíj</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="saudigp.html"
+                    >Szaud Arábia-i nagydíj</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="ausgp.html"
+                    >Ausztrál nagydíj</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="bakugp.html">Azeri nagydíj</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="miamigp.html"
+                    >Miami-i nagydíj</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="imolagp.html"
+                    >Imola-i nagydíj</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="monacogp.html"
+                    >Monaco-i nagydíj</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="spaingp.html"
+                    >Spanyol nagydíj</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="cangp.html"
+                    >Canada-i nagydíj</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="östgp.html">Osztrák nagydíj</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Britgp.html">Brit nagydíj</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="hungp.html">Magyar nagydíj</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="belgagp.html">Belga nagydíj</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="hollandgp.html"
+                    >Holland nagydíj</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="monzagp.html">Olasz nagydíj</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="singp.html"
+                    >Szingapúr-i nagydíj</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="japangp.html">Japán nagydíj</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="qatargp.html"
+                    >Qatar-i nagydíj</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="usgp.html"
+                    >Amerika-i nagydíj</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="mexgp.html"
+                    >Mexicó-i nagydíj</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="brazilgp.html"
+                    >Brazil nagydíj</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="vegasgp.html"
+                    >Las Vegas-i nagydíj</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="abudhabigp.html"
+                    >Abu Dhabi nagydíj</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Legends.html"
+                >Legendák</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="quiz.html">Kvíz</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <h1><div>A McLaren F1 csapat Legendái</div></h1>
+    <br />
+    <h2>Emerson Fittipaldi</h2>
+    <div style="margin: 15px 100px 50px 100px">
+      <img
+        class="autokepjobb"
+        src="Források/emerson-fittipaldi.jpg"
+        alt=""
+        style="width: 30vw"
+      />
+      <b>Emerson Fittipaldi</b> <i>1946-ban</i> született a
+      <i>Brazíliában</i> lévő <i>São Paulo</i> városban. 1970-ben kezdte a Forma
+      1-ben a <i>Lotusnál</i>, ahol a harmadik számú pilóta volt, John Miles és
+      Jochen Rindt mellett. 1970-ben pedig már jött az első siker, amikor is
+      segített csapattársának Rindt-nek hogy a Lotussal
+      <b>vb győztes</b> legyen.<br />
+
+      1972-ben sikerült megnyernie élete első világbajnoki címét a Lotussal és
+      1974-ben pedig már a McLarenhez igazolt.<br />
+      <br />
+      <h4>A Mclaren-es korszaka</h4>
+
+      A csapatnál 3 évig volt, egészen 1976-ig, de ezek az évek alatt nagyon
+      sokat segített a csapat fejlődésében. <br />
+      Az első évében már világbajnok lett a friss brit csapattal. Aztán 1975 és
+      76-ban "csak" második lett és ezek után már csak 4 évet maradt a Forma
+      1-ben és 1980-ban bejelentette a visszavonulását. <br />
+      <br />
+      <i>"Mindig is a legjobb akartam lenni."</i><br />
+      <i
+        >"Tudtam hogyha jöttek mellettem jobbról, hiszen ezt mindig
+        megéreztem."</i
+      >
     </div>
-  </div>
-</nav>
-</body>
+
+    <h2>Niki Lauda</h2>
+    <div style="margin: 15px 100px 50px 100px">
+      <img
+        class="autokepjobb"
+        src="Források/Niki lauda.jpg"
+        alt=""
+        style="width: 30vw"
+      />
+      <b>Niki Lauda</b> <i>Bécsben született 1949-ben.</i> A sportágban 1971-ben
+      kezdte a March nevű istállónál. <br />
+      Két időszaka volt a Forma 1-ben, elöbbi 1971 és 79 között, majd utóbbi
+      1982 és 85 között. Az ő karrierje elég csendesen kezdődött, viszont azt
+      kevesen tudják, hogy hatalmas hiteleket vett fel osztrák bankoktól, hogy
+      tudjon versenyezni a sportágban. <br />
+      <b
+        >Ez az összeg körülbelül az ő elmondása szerint több, mint 100000 dollár
+        volt. </b
+      ><br />
+      <br />
+      <h4>A fordulat</h4>
+      1974 jött a fordulat, hiszen leigazolta a Ferrari. Náluk 1975-ben meg i
+      szerezte az első világbajnoki címét és 1977-ben újra diadalmaskodott.
+      <br />
+      Viszont 1976-ban a német nagydíjon nagyon közel volt a tragédiához. Miután
+      felszáradt a versenyen a pálya, kiment kereket cserélni, viszont a gumik
+      nem melegedtek fel rendesen és a Ferrari megcsúszott egy szalagkorlátnak
+      ütközött és kigyulladt. Lauda benne égett az autóban és a Nürburgringen
+      nagyon sok időbe telt, míg kiszedték az autóból. Szerencsére Lauda túlélte
+      és folytathatta a versenyzést, egy hónapra rá pedig vissza is jött az
+      olasz nagydíjra. <br />
+      <br />
+      <h4>A McLaren-nél</h4>
+
+      Miután visszatért a sportágba, egyből a McLaren-hez igazolt. <br />
+      Ő az egyetlen pilóta, aki tudott világbajnoki címet nyerni a Forma 1
+      történetének két legsikeresebb csapat pilótájaként.
+      <img
+        class="autokepjobb"
+        src="Források/1984 Lauda.jpg"
+        alt=""
+        style="width: 30vw"
+      />
+      1984-ben meg is nyerte a címet harmadjára és ezt az utolsó versenyen
+      <b>fél ponttal</b> sikerült behúznia a csapattársa, Alain Prost elött.
+      <br />
+      1985-ben végleg visszavonult, de egészen 2019-ig a sport nagy rajongója
+      volt, mellesleg a Mercedes-AMG csapat résztulajdonosa is volt. <br />
+      2019-ben megfázás után tüdőátültetést kellett rajta részt venni és 2019.
+      május 20-án családja körében hunyt el. <br />
+      <br />
+      <i
+        >"Sokan kritizálják a Forma 1-et, mert szerintük egy felesleges
+        kockázat, ami igaz is, mert évente 2 versenyzőt veszítünk el, de ez
+        engem nem állít meg."</i
+      >
+      <br />
+      <i
+        >"Egy verseny addig nincsen megnyerve, míg nem érsz be a célba, mert
+        bármi történhet."</i
+      >
+      <br />
+      <i>"Ne beszélj túl sokat, legyél fókuszált és érd el a célodat."</i>
+    </div>
+    <h2><a name="Prost">Alain Prost</a></h2>
+    <div style="margin: 15px 100px 50px 100px">
+      <img
+        class="autokepjobb"
+        src="Források/prost.jpg"
+        alt=""
+        style="width: 30vw"
+      />
+      
+      <b>Alain Prost</b> 1955-ben született a francia Saint-Chamond-ban. 1980 és
+      1993 között 199 nagydíjon vett részt, ezalatt 51 nagydíjat és 4
+      világabjnok címet nyert. Ő a versenysorozat 5. legsikeresbb pilótája.
+      <i>A beceneve pedig a <b>"Professzor"</b> volt.</i><br />
+      <br />
+      <h4>A debütálástól az első sikerig</h4>
+      1980-ban debütált a McLarennél, de nem volt sok sikere ezért 1981-ben a
+      Renault-hoz igazolt és ott volt három évig, majd visszagigazolt újra a
+      McLaren-hez 1984-ben, de mostmár jobban sikerültek az eredményei. 1985, 86
+      és 89-ben világbajnok lett. <br />
+      A sikerek után átigazolt az örök rivális Ferrarihoz. Itt már sajnos nem
+      tudott jól szerepelni és 1991-ben bejelentette visszavonulását, ekkor még
+      nem tudta senki, hogy egyszer majd visszatér. <br />
+      <br />
+      <h4>A visszatérés a Williams-hez</h4>
+      <b>1992-ben</b> távol volt a sporttágtól, viszont a
+      <i>szezon közben</i> kapott egy potenciális szerződést a
+      <b>Williams-hez és ezt ő el is fogadta.</b> <br />
+      
+      Az utolsó szezon álomszerűen sikerült, <b>legyőzte Ayrton Sennát</b> és
+      ezzel ő lett a 2. ember aki <b>4 világbajnoki címet</b> tudott nyerni, a
+      hihetetlen <b>Juan Manuel Fangio után.</b> <br />
+      <b
+        >Ez volt sajnos az utolsó dobogó, amelyiken Alain Prost és Ayrton Senna
+        szerepelt.</b
+      >
+      <img
+        class="autokepjobb"
+        src="Források/senna porst utolsó dobogó.jpg"
+        alt=""
+        style="width: 30vw"
+      />
+      <br />
+      <br />
+      <i
+        >"Akik kritizálnak, azok nem lesznek azok, akik segítenek, mikor eltöröd
+        a lábadat egy futamon és kerekeszékbe kerülsz."
+      </i>
+      
+      <br />
+      <i
+        >Ha nem figyelsz, elveszítheted a látásodat, ilyenkor lehet lesz egy
+        autó elötted, lehet nem, ez már nem rajtad múlik.</i
+      >
+      
+      <br />
+      <i
+        >Lehet emberek nem értik, de nekem az a legnagyobb öröm, mikor egy Forma
+        1-es autót esőbe vezethetek.</i
+      >
+      <br />
+    </div>
+
+    <h2>Ayrton Senna</h2>
+    <div style="margin: 15px 100px 50px 100px">
+      <b>Ayrton Senna</b> 1960-ban a brazil São Paulo-ban született. Ő neki volt
+      talán a Forma 1 történetében a legizgalmasabb útja, de a legtragikusabb
+      vége a karrierjének. <br />
+      
+      Senna nem egy nagy csapatnál kezdte, hanem a <b>Toleman-nél</b> kezdte a
+      pályafutását, ami egy egész kicsi csapat volt a Williams és a McLaren-hez
+      képest. Már az első évében megmutatta, hogy mire képes.
+      <b>Első pontját</b>
+      <img
+        class="autokepjobb"
+        src="Források/Ayrton-Senna.jpg"
+        alt=""
+        style="width: 30vw"
+      /> már a második futamján a
+      <b>Dél-Afrika-i Kyalami-ban szerezte.</b> <br />
+      1985-ben a <b>Lotus-hoz</b> igazolt és ott versenyzett 1987-ig. <br />
+      <br />
+      <h4>A sikeres McLaren-es évek</h4>
+      1988-ban megnyerte első világbajnoki címét a francia csapattárs
+      <a href="#Prost">Prost</a> elött. <br />
+      1989-ben a <a href="japangp.html">japán nagydíjon</a> Prost-tal ütköztek,
+      mind a ketten kiestek (Sennát diszkvalifikálták) és így Prost lett a
+      világbajnok. <br />
+      1990-ben ugyan ez megtörtént, viszont most Senna direkt nekiment
+      Prost-nak, így ő lett a világbajnok. Ezek után az FIA betiltotta azt, hogy
+      ha világbajnokság múlik egy versenyen, akkor direkt tilos ütköznie a kettő
+      világabjnoki aspiránsnak. <br>
+      1991-ben simán megnyerte a bajnokságot, így már 3 szoros világbajnok volt, de 1992 és 1993-ban képtelen volt a McLaren a jó autó gyártására, így Senna elment a Williams-hez. <br>
+      <br>     
+      Átigazolt a Williams-hez 1994-ben, viszont itt már csak 3 versenyt tudott menni,<br> hiszen 1994 május elsején az Imola-i futam 7. körében a Tamburelo kanyarban elveszetette az autó felett az irányítást, <br> kicsúszott és a falnak csapódott. <br>
+    Sajnos nem lehetett megmenteni az életét. Ezzel megrázta egész Brazíliát és az egész Forma 1-et. <br>
+    Temetésén több, mint 250000 jelentek meg és a koporsóját a Forma 1 legsikeresebb pilótáják vitték. <br>
+    <img class="autokepjobb" src="Források/Ayrton+Senna temetés.jpg" alt="" style="width: 30vw;">
+    <br>
+    <i>"Ha második vagy, akkor te vagy az első, aki veszített."</i> <br>
+    <i>"Nincsenek példaképeim, én vagyok a példakép."</i> <br>
+    <i>"A versenyzés és a versengés benne van az ereimben."</i> <br>
+    <br>
+    <b>és a leghíresebb mondata:</b> <br>
+    <i>"If you no longer go for a gap that exists, your are no longer a racing driver."</i> <br>
+    azaz
+    <i>Ha már nem használsz ki egy létező ívet, akkor már nem vagy autóversenyző.</i> <br>
+    <br>
+    <h2>Ayrton Sennát 2000-ben bekerült a Nemzetközi Motorsportok Hírességeinek Csarnokába.</h2>
+    </div>
+  </body>
 </html>
