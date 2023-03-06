@@ -58,10 +58,23 @@ a:hover {
 
 
 .szoveg {
-  margin-left: 100px;
-  margin-right: 800px;
+  margin-left: 15%;
+  margin-right: 30%;
   border-left: 4px solid rgb(255, 115, 0);
   padding: 40px;
+  
+}
+
+@media screen and (max-width:500px) {
+  .szoveg {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .szoveg2 {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
 }
 
 
@@ -86,3 +99,4 @@ margin-left: auto;
 margin-right: auto;
 display: block;
 }
+
